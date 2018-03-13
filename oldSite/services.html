@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>The Learning Support Service</title>
+	<meta name="description" content="The Learning Support Service">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="mainStyle.css">
+
+	<!--Google font open sans-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+	<!--Font Awesome-->
+	<script src="https://use.fontawesome.com/c792cb2ab1.js"></script>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<body class="services">
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<!-- <li><a href="products.html">Products</a></li> -->
+					<li class="active"><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<form class="form-inline navbarSub">
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" placeholder="Your email">
+					</div>
+					<button type="submit" class="btn btn-default">Subscribe</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- jumbotron-->
+	<div class="jumbotron text-center">
+		<div>
+			<h1>Our services</h1>
+			<div class="container">
+				<p>We offer a variety of support options to suit the needs of many individuals.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Features-->
+	<div class="container">
+		<section>
+
+			<div class="row">
+				<div class="col-lg-4 uniDropDownButton">	
+					<div class="panel noborder panel-default panel-transparent text-center">
+						<div class="panel-heading panelHover noborder">
+							<span class="glyphicon glyphicon-pencil"></span>
+							<h4>Uni Students</h4>
+							<p>Supporting students on university programmes.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mentorDropDownButton">
+					<div class="panel noborder panel-default panel-transparent text-center">
+						<div class="panel-heading panelHover noborder">
+							<span class="glyphicon glyphicon-user"></span>
+							<h4>Mentoring Support</h4>
+							<p>Mentoring who needs it...</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 childrenAndTeensDropDownButton">
+					<div class="panel noborder panel-default panel-transparent text-center">
+						<div class="panel-heading panelHover noborder">
+							<span class="glyphicon glyphicon-ice-lolly"></span>
+							<h4>Children And Teens</h4>
+							<p>Providing support for young people.</p>
+						</div>
+					</div>
+				</div>
+			</div><!--End Row-->
+
+			<div class="row">
+				<div class="col-lg-4 workDropDownButton">
+					<div class="panel noborder panel-default panel-transparent text-center">
+						<div class="panel-heading panelHover noborder">
+							<span class="glyphicon glyphicon-signal"></span>
+							<h4>Work</h4>
+							<p>Support and guidance in the workplace.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 parentsDropDownButton">
+					<div class="panel noborder panel-default panel-transparent text-center">
+						<div class="panel-heading panelHover noborder">
+							<span class="glyphicon glyphicon-heart-empty"></span>
+							<h4>Parents</h4>
+							<p>Parenting and family support.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 educatorsDropDownButton">
+					<div class="panel noborder panel-default panel-transparent text-center">
+						<div class="panel-heading panelHover noborder">
+							<span class="glyphicon glyphicon-book"></span>
+							<h4>Educators</h4>
+							<p>Helping to shape learners futures.</p>
+						</div>
+					</div>
+				</div>
+			</div><!--End Row-->
+
+		</section>
+	</div><!--End of container-->
+
+	<div class="container uniDropDown">
+		<div class="panel noborder panel-default panel-transparent">
+			<div class="panel-heading noborder">
+				<h2>Supporting Students on University Programmes</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p> If you are a student who is struggling with the requirements that comes with learning in a higher education setting, then we can help. Students who can benefit from our service include those who just want help every now and then, to those who require regular help to manage the workload, pressures and challenges they face pursuing their goals. Additionally, students who have a diagnosed condition or disability would greatly benefit from such support.
+				<br/>
+				<br/>
+				At The Learning Support Service we recognise the daily pressures that many students face when pursuing a degree course of study. Many students report struggles particularly with:
+				</p>
+				<ul>
+					<li>Planning and preparation of dissertation, essays and academic reports</li>
+					<li>Developing academic tone in their work</li>
+					<li>Developing critical thinking and applying analysis to tasks</li>
+					<li>Structuring research activities and incorporating it into their work</li>
+				</ul>
+				</p>
+			</div>
+			<div class="panel-heading noborder">
+				<h2>Supporting You to Achieve Your Goals</h2>
+			</div>
+			<div class="panel-body noborder">
+				<br/>
+				<div class="panelLinks container-fluid text-center">
+					<a href="http://www.nus.org.uk/en/advice/your-study/coping-with-study-related-stress/" target="_blank">The stress factor</a>
+					<a href="https://www.gov.uk/disabled-students-allowances-dsas/what-youll-get" target="_blank">Types of support available</a>
+					<a href="https://www.gov.uk/disabled-students-allowances-dsas/how-to-claim" target="_blank">How to apply for a DSA?</a>
+					<a href="https://www.gov.uk/disabled-students-allowances-dsas/overview" target="_blank">What is DSA?</a>
+				</div>
+				<br>
+				<p>Furthermore, students also report feelings of poor confidence in their ability to cope with university life, issues with motivation and weak organisational skills. These factors increase the chances of students leaving their degree programme, when it does not need to be that way when help is available.<br>Whilst the pressures of life is normal, our mentoring facility exists to support your studies. It can help you find solutions to problems encountered, manage deadlines more efficiently and develop you as an individual in an academic sense. We can also help you to adjust to university life, achieve your targets and become more organised, often factors that contribute to stress and anxiety. We support all individuals including those with a specific difficulty or disability.
+				</p>
+				<br/>
+				<button class="btn btn-md btn-info">Apply</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mentorDropDown">
+		<div class="panel noborder panel-default panel-transparent">
+			<div class="panel-heading noborder">
+				<h2>Mentoring Who Needs It</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>The pressures of life can get to us all. The feeling of being lost, which only allows your worries about the tasks, goals and targets you need to achieve, to become overwhelming. This leads to motivation being lost and the task left undone. For some, organisation and planning does not come naturally, and from experience, this tends to be the catalyst for many anxieties and worries. Additionally, an imbalanced view of our strengths verses our weaknesses can make it harder for self-confidence to evolve.
+				<br/>
+				Our mentoring service, which is particularly suited for individuals with difficulties, aims to alleviate such concerns. Often, just a simple chat with specific targets and structured "to do" lists is more than enough to help overcome the stress and anxiety felt when completing certain tasks. Moreover, it can support you with dealing with situations that may be contributing to raising your levels of anxiousness such as: a school environment, working with difficult people or preparing for an examination or interview. Whilst this is NOT a counselling service, we thrive on getting you to take positive action to bring about a change to a particular situation or circumstance.
+				<br/>				
+				</p>
+			</div>
+			<div class="panel-heading noborder">
+				<h2>Take Positive Steps To Relieve Stress</h2>
+			</div>
+			<div class="panel-body noborder">
+				<br/>
+				<div class="panelLinks container-fluid text-center">
+					<a href="http://kidshealth.org/kid/feeling/emotion/stress.html" target="_blank">Understanding stress in children</a>
+					<a href="https://daphnegan.wordpress.com/2011/12/20/importance-of-personal-development/" target="_blank">Interesting reflection on personal development</a>
+					<a href="http://www.youngminds.org.uk/for_children_young_people/whats_worrying_you/anxiety/what_is_anxiety" target="_blank">Young people and anxiety</a>
+				</div>
+				<p>
+					<ul>
+						<li>£14.00 for 30 minutes</li>
+						<li>£21.00 for 45 minutes</li>
+						<li>£28.00 for 1 hour</li>
+					</ul>
+				<br/>
+				</p>
+				<button class="btn btn-md btn-info">Pay For Support As You Go</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container childrenAndTeensDropDown">
+		<div class="panel noborder panel-default panel-transparent">
+			<div class="panel-heading noborder">
+				<h2>Children And Teens</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>The pressures of life can get to us all. The feeling of being lost, which only allows your worries about the tasks, goals and targets you need to achieve, to become overwhelming. This leads to motivation being lost and the task left undone. For some, organisation and planning does not come naturally, and from experience, this tends to be the catalyst for many anxieties and worries. Additionally, an imbalanced view of our strengths verses our weaknesses can make it harder for self-confidence to evolve.
+				<br/>
+				Our mentoring service, which is particularly suited for individuals with difficulties, aims to alleviate such concerns. Often, just a simple chat with specific targets and structured "to do" lists is more than enough to help overcome the stress and anxiety felt when completing certain tasks. Moreover, it can support you with dealing with situations that may be contributing to raising your levels of anxiousness such as: a school environment, working with difficult people or preparing for an examination or interview. Whilst this is NOT a counselling service, we thrive on getting you to take positive action to bring about a change to a particular situation or circumstance.
+				<br/>				
+				</p>
+			</div>
+			<div class="panel-heading noborder">
+				<h2>Take Positive Steps To Relieve Stress</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>
+					<ul>
+						<li>£14.00 for 30 minutes</li>
+						<li>£21.00 for 45 minutes</li>
+						<li>£28.00 for 1 hour</li>
+					</ul>
+				</p>
+				<br>
+				<button class="btn btn-md btn-info">Pay For Support As You Go</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container workDropDown">
+		<div class="panel noborder panel-default panel-transparent">
+			<div class="panel-heading noborder">
+				<h2>Work</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>Drumstick biltong bacon spare ribs pork loin shank pig turducken short loin landjaeger. Fatback sirloin doner beef porchetta ribeye. Alcatra picanha turducken, boudin filet mignon ribeye burgdoggen hamburger pastrami shoulder fatback shank. Shankle turkey swine capicola, ground round shoulder tail beef bresaola brisket. Ham flank ham hock short loin chicken pork loin shoulder venison prosciutto frankfurter. Picanha ribeye spare ribs, biltong cow hamburger tenderloin beef ribs shankle. Chuck tenderloin prosciutto tongue rump.
+				<br>
+				Bacon ipsum dolor amet capicola tongue pork, kielbasa pork loin cupim andouille rump biltong leberkas prosciutto. Hamburger corned beef sausage t-bone, pork belly cupim cow. Jerky pig fatback kevin ham hock. Shoulder kevin pork, fatback meatloaf biltong andouille t-bone shankle prosciutto chuck short ribs beef ribs pig. Capicola jowl landjaeger meatball rump jerky pork belly shank pork chop pancetta shankle. T-bone corned beef picanha beef chuck spare ribs, fatback swine turducken flank pork loin andouille venison shoulder. Shankle leberkas sausage, bresaola ground round rump sirloin turkey pork chop corned beef short ribs beef ribs pig.	
+				</p>
+			</div>
+			<div class="panel-heading noborder">
+				<h2>Take Positive Steps To Relieve Work Stress</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>
+					<ul>
+						<li>£14.00 for 30 minutes</li>
+						<li>£21.00 for 45 minutes</li>
+						<li>£28.00 for 1 hour</li>
+					</ul>
+				<br/>
+				</p>
+				<button class="btn btn-md btn-info">Pay For Support As You Go</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container parentsDropDown">
+		<div class="panel noborder panel-default panel-transparent">
+			<div class="panel-heading noborder">
+				<h2>Parental Guidance</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>Drumstick biltong bacon spare ribs pork loin shank pig turducken short loin landjaeger. Fatback sirloin doner beef porchetta ribeye. Alcatra picanha turducken, boudin filet mignon ribeye burgdoggen hamburger pastrami shoulder fatback shank. Shankle turkey swine capicola, ground round shoulder tail beef bresaola brisket. Ham flank ham hock short loin chicken pork loin shoulder venison prosciutto frankfurter. Picanha ribeye spare ribs, biltong cow hamburger tenderloin beef ribs shankle. Chuck tenderloin prosciutto tongue rump.
+				<br>
+				Bacon ipsum dolor amet capicola tongue pork, kielbasa pork loin cupim andouille rump biltong leberkas prosciutto. Hamburger corned beef sausage t-bone, pork belly cupim cow. Jerky pig fatback kevin ham hock. Shoulder kevin pork, fatback meatloaf biltong andouille t-bone shankle prosciutto chuck short ribs beef ribs pig. Capicola jowl landjaeger meatball rump jerky pork belly shank pork chop pancetta shankle. T-bone corned beef picanha beef chuck spare ribs, fatback swine turducken flank pork loin andouille venison shoulder. Shankle leberkas sausage, bresaola ground round rump sirloin turkey pork chop corned beef short ribs beef ribs pig.	
+				</p>
+			</div>
+			<div class="panel-heading noborder">
+				<h2>Receive Parental Guidance</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>
+					<ul>
+						<li>£14.00 for 30 minutes</li>
+						<li>£21.00 for 45 minutes</li>
+						<li>£28.00 for 1 hour</li>
+					</ul>
+				<br/>
+				</p>
+				<button class="btn btn-md btn-info">Pay For Support As You Go</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container educatorsDropDown">
+		<div class="panel noborder panel-default panel-transparent">
+			<div class="panel-heading noborder">
+				<h2>Supporting Teachers and Educators</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>Ball tip alcatra jerky, sausage turducken swine sirloin bresaola short loin kevin strip steak meatball. Tongue pastrami brisket shoulder, porchetta ground round strip steak cow. Landjaeger ham spare ribs kevin tenderloin capicola, shank jerky tail jowl ground round pig ball tip. Flank tenderloin cow fatback bacon strip steak chicken beef swine filet mignon ham hock burgdoggen meatball. Chicken boudin swine, spare ribs jowl alcatra chuck ground round cow leberkas short loin burgdoggen pork porchetta beef. Flank ham andouille jowl tail ground round drumstick biltong ball tip turducken ribeye.
+				<br/>
+				</p>
+			</div>
+			<div class="panel-heading noborder">
+				<h2>Supporting you to help your students</h2>
+			</div>
+			<div class="panel-body noborder">
+				<p>Kielbasa bresaola hamburger alcatra, leberkas tongue sirloin corned beef tail boudin cow filet mignon. Pig doner beef ribeye frankfurter chuck bacon hamburger swine tongue. Jerky kevin turducken andouille, pork chop pig meatball ribeye leberkas ham sausage fatback. Prosciutto tri-tip strip steak tongue meatloaf corned beef pork chop andouille tenderloin short loin landjaeger bresaola.
+				<br>
+				</p>
+				<br>
+				<button class="btn btn-md btn-info">
+					Apply
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+	//JQUERY SECTION
+		$(document).ready(function(){
+
+			$(".uniDropDown").hide();
+			$(".mentorDropDown").hide(); 
+			$(".childrenAndTeensDropDown").hide(); 
+			$(".workDropDown").hide();
+			$(".parentsDropDown").hide(); 
+			$(".educatorsDropDown").hide();
+		   	
+	   		$(".uniDropDownButton").click(function()
+	   		{
+	    		$(".uniDropDown").slideToggle(); 
+	    		$(".mentorDropDown").hide();
+	    		$(".childrenAndTeensDropDown").hide();
+	    		$(".workDropDown").hide();
+	    		$(".educatorsDropDown").hide();
+	    		$(".parentsDropDown").hide(); 
+	   		});
+
+	   		$(".mentorDropDownButton").click(function()
+	   		{
+	    		$(".mentorDropDown").slideToggle();
+	    		$(".uniDropDown").hide(); 
+	    		$(".childrenAndTeensDropDown").hide();
+	    		$(".workDropDown").hide();
+	    		$(".parentsDropDown").hide(); 
+	    		$(".educatorsDropDown").hide();
+	   		});
+
+	   		$(".childrenAndTeensDropDownButton").click(function()		
+	   		{
+	    		$(".childrenAndTeensDropDown").slideToggle();
+	    		$(".uniDropDown").hide(); 
+	    		$(".mentorDropDown").hide();
+	    		$(".parentsDropDown").hide(); 
+	    		$(".educatorsDropDown").hide();
+	    		$(".workDropDown").hide();
+	   		});
+
+	   		$(".workDropDownButton").click(function()
+	   		{
+	    		$(".workDropDown").slideToggle();
+	    		$(".uniDropDown").hide(); 
+	    		$(".mentorDropDown").hide();
+	    		$(".childrenAndTeensDropDown").hide();
+	    		$(".parentsDropDown").hide(); 
+	    		$(".educatorsDropDown").hide();
+	   		});
+
+	   		$(".parentsDropDownButton").click(function()
+	   		{
+	    		$(".parentsDropDown").slideToggle();
+	    		$(".uniDropDown").hide(); 
+	    		$(".mentorDropDown").hide();
+	    		$(".childrenAndTeensDropDown").hide();
+	    		$(".workDropDown").hide(); 
+	    		$(".educatorsDropDown").hide();
+	   		});
+
+	   		$(".educatorsDropDownButton").click(function()
+	   		{
+	    		$(".educatorsDropDown").slideToggle();
+	    		$(".uniDropDown").hide(); 
+	    		$(".mentorDropDown").hide();
+	    		$(".childrenAndTeensDropDown").hide();
+	    		$(".workDropDown").hide(); 
+	    		$(".parentsDropDown").hide();
+	   		});
+
+		});
+	</script>
+</body>
+</html>

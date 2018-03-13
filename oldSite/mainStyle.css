@@ -1,0 +1,205 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	.navbar-collapse li a { 
+		background: #5D737E; 
+	}
+	.navbar-collapse form {
+		display: none;
+	}
+}
+
+body { 
+	background: url(Images/book.jpg) #FCFEFF no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body.about {
+	background: url(Images/bookshop.jpg) #FCFEFF no-repeat center center fixed; 
+	background-size: cover;
+}
+
+body.services {
+	background: url(Images/benchCrop.jpg) #FCFEFF no-repeat center center fixed; 
+	background-size: cover;
+}
+
+body.contactUs {
+	background: url(Images/laptops.jpg) #FCFEFF no-repeat center center fixed; 
+	background-size: cover;
+}
+
+.navbar {
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+	position: absolute;
+	top: 0px;
+}
+
+.nav.navbar-nav li a { 
+	color: #FCFEFF;
+	font-family: arial;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav.navbar-nav li a:hover { 
+	background: #6399B5;
+	opacity: 0.95;
+}
+
+.nav.navbar-nav > .active > a {
+    background-color: transparent;
+   	background: rgba(95, 150, 178, 0.9);
+   	border-color: transparent;
+}
+
+.nav.navbar-nav > .active > a:hover {
+    background-color: transparent;
+   	background: #5D737E;
+   	border-color: transparent;
+}
+
+.navbarSub {
+	float: right;
+	margin-top: 1%;
+}
+
+.shadow-navbar {
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.22);
+}
+
+.jumbotron {	
+	background-color: transparent !important
+	border-color: transparent;
+	background: transparent;
+	margin-bottom: -10px;
+}
+
+.jumbotron p {
+	font-family: 'Open Sans', sans-serif;
+	color: #FCFEFF;
+	text-shadow: 0px -1px rgba(0,0,0,.25);
+}
+
+.jumbotron h1 {
+	color: #FCFEFF;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0px -1px rgba(0,0,0,.25);
+}
+
+.homeBodyButtons {
+	margin-top: 25%;
+}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading {
+    background: rgba(95, 150, 178, 0.9);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 1px 1px rgba(0,0,0,.25);
+}
+
+.panel-transparent .panel-heading.panelHover:hover {
+    background-color: transparent;
+   	background: #5D737E;
+   	border-color: transparent;
+}
+
+.panelHover:hover {
+	cursor: pointer;
+}
+
+.panel-heading p {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.panel-transparent h2, h3, h4, span, a , a:hover, a:active, a:visited, a:focus{
+	color: rgba(255, 255, 255, 0.9);
+   	text-shadow: 0px -1px rgba(0,0,0,.25);
+   	text-decoration: none;
+}
+
+.panel-transparent .panel-body {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    box-shadow: 1px 1px rgba(0,0,0,.25);
+}
+
+.panel.noborder {
+    border: none;
+    box-shadow: none;
+}
+
+.panelLinks a {
+	color: #5D737E;
+	text-shadow: none;
+	text-decoration: underline;
+	margin-right: 5%;
+	line-height: 200%;
+}
+
+.panelLinks a:hover {
+	color: #6399B5;
+}
+
+.glyphicon, .panelLinks a {
+	float: right;
+}
+
+.btn {
+	border-radius: 0px;
+	background: rgba(95, 150, 178, 0.9);
+   	border-color: transparent;
+   	color: white;
+   	text-decoration: none;
+   	box-shadow: 1px 1px rgba(0,0,0,.25);
+   	text-shadow: 0px -1px rgba(0,0,0,.25);
+}
+
+.btn:hover {
+   	background-color: #71838c;
+   	border-color: transparent;
+   	color: #FCFEFF;
+}
+
+#map {
+	padding-top: 25%;
+}
+
+.form-control {
+	text-align: left;
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+.subscribeHead {
+	text-shadow: 0px -1px rgba(0,0,0,.25);
+	display: flex;
+}
+
+.form-horizontal .control-label{
+    text-align: left;
+}
+
+/*.socialMediaLogo {
+	color: rgba(113, 177, 210, 1);
+}*/
+
+.footer {
+	color: rgba(255, 255, 255, 1);
+}
+
+.copyright {
+	position: fixed;
+    bottom: 0;
+    right: 1;
+    color: grey;
+}

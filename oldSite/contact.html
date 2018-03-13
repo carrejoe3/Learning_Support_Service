@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charse="utf-8">
+	<title>The Learning Support Service</title>
+	<meta name="description" content="The Learning Support Service">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="mainStyle.css">
+
+	<!--Google font open sans-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+	<!--Font Awesome-->
+	<script src="https://use.fontawesome.com/c792cb2ab1.js"></script>
+</head>
+
+<body class="contactUs">
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<!-- <li><a href="products.html">Products</a></li> -->
+					<li><a href="services.html">Services</a></li>
+					<li class="active"><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<form class="form-inline navbarSub">
+					<div class="form-group">
+						<input type="text" class="form-control" id="email" placeholder="Your email">
+					</div>
+					<button type="submit" class="btn btn-default">Subscribe</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	
+	<!--Maps-->
+	<div>
+    	<div id="map">
+		    <script>
+		      function initMap() {
+		        var Bicester = {lat: 51.8996, lng: -1.1536};
+		        var map = new google.maps.Map(document.getElementById('map'), {
+		          zoom: 8,
+		          center: Bicester,
+		        });
+		        var marker = new google.maps.Marker({
+		          position: Bicester,
+		          map: map
+		        });
+		      }
+		    </script>
+		    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq_C0UFT9No5PEZlWd2BDkgOJ3qDt_XFU&callback=initMap"></script>
+    	</div>
+    	<br/>
+    </div>
+	
+	<!--contact-->
+	<div class="container">
+		<div class="panel noborder panel-default panel-transparent">
+			<div class="panel-heading noborder">
+				<h2>Contact us</h2>
+			</div>
+			<div class="container-fluid">
+				<div class="row panel-body noborder">
+					<div class="col-lg-4">
+						<p>Send us a message or contact us from the address below.</p>
+						<address>
+							<strong>The Learning Support Service Ltd.</strong></br>
+							111, fake avenue </br>
+							Bicester</br>
+							B12 201</br>
+						</address>
+					</div>
+
+					<div class="col-lg-8">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label for="user-name" class="col-md-2 control-label">Name</label>
+								<div class="col-lg-8">
+									<input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="user-email" class="col-md-2 control-label">Email</label>
+								<div class="col-lg-8">
+									<input type="text" class="form-control" id="user-email" placeholder="Enter your email address">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="user-url" class="col-md-2 control-label">Your website</label>
+								<div class="col-lg-8">
+									<input type="text" class="form-control" id="user-url" placeholder="Enter if you have a website">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="user-message" class="col-md-2 control-label">Your message</label>
+								<div class="col-lg-8">
+									<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-lg-8">
+									<button type="submit" class="btn btn-info">Submit</button>
+								</div>
+							</div>
+						</form>	
+					</div> <!--end of form-->
+				</div><!--end of contact-->
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<footer>
+		<div class="container text-center">
+			<!-- <div class="footer">
+				<ul class="list-inline">
+					<li><a href="www.twitter.com"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="www.facebook.com"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="www.youtube.com"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a></li>
+				</ul>
+			</div> -->
+			<!-- <p class="copyright">&copy; Copyright @ 2016</p> -->
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
