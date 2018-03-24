@@ -703,3 +703,15 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+.card1, .card2, .card3 {
+  cursor: pointer;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.cardText1, .cardText2, .cardText3 {
+  display: none;
+}

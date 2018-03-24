@@ -20,6 +20,43 @@
     $('.navbar-collapse').collapse('hide');
   });
 
+  // Card functions
+  $('.card1').click(function() {
+    $('.card1').css('background-color', '#fec810');
+    $('.card1').css('color', 'white');
+    $('.card3').css('background-color', 'white');
+    $('.card3').css('color', 'black');
+    $('.card2').css('background-color', 'white');
+    $('.card2').css('color', 'black');
+    $('.cardText3').hide();
+    $('.cardText2').hide();
+    $('.cardText1').show();
+  });
+
+  $('.card2').click(function() {
+    $('.card2').css('background-color', '#fec810');
+    $('.card2').css('color', 'white');
+    $('.card1').css('background-color', 'white');
+    $('.card1').css('color', 'black');
+    $('.card3').css('background-color', 'white');
+    $('.card3').css('color', 'black');
+    $('.cardText1').hide();
+    $('.cardText3').hide();
+    $('.cardText2').show();
+  });
+
+  $('.card3').click(function() {
+    $('.card3').css('background-color', '#fec810');
+    $('.card3').css('color', 'white');
+    $('.card1').css('background-color', 'white');
+    $('.card1').css('color', 'black');
+    $('.card2').css('background-color', 'white');
+    $('.card2').css('color', 'black');
+    $('.cardText1').hide();
+    $('.cardText2').hide();
+    $('.cardText3').show();
+  });
+
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
