@@ -706,6 +706,7 @@ ul.social-buttons li a:hover {
 
 .card1, .card2, .card3 {
   cursor: pointer;
+  height: 100%;
 }
 
 .card-text {
@@ -714,4 +715,18 @@ ul.social-buttons li a:hover {
 
 .cardText1, .cardText2, .cardText3 {
   display: none;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cardTextRow {
+  margin-top: 25px;
+}
+
+.card-img-top {
+  margin: 5% 0 -5% 50%;
+}
+
+.activeCard {
+  background-color: #fec810 !important;
+  color: white !important;
 }

@@ -22,39 +22,30 @@
 
   // Card functions
   $('.card1').click(function() {
-    $('.card1').css('background-color', '#fec810');
-    $('.card1').css('color', 'white');
-    $('.card3').css('background-color', 'white');
-    $('.card3').css('color', 'black');
-    $('.card2').css('background-color', 'white');
-    $('.card2').css('color', 'black');
+    $('.card1').toggleClass('activeCard');
+    $('.card2').removeClass('activeCard');
+    $('.card3').removeClass('activeCard');
     $('.cardText3').hide();
     $('.cardText2').hide();
-    $('.cardText1').show();
+    $('.cardText1').toggle();
   });
 
   $('.card2').click(function() {
-    $('.card2').css('background-color', '#fec810');
-    $('.card2').css('color', 'white');
-    $('.card1').css('background-color', 'white');
-    $('.card1').css('color', 'black');
-    $('.card3').css('background-color', 'white');
-    $('.card3').css('color', 'black');
+    $('.card2').toggleClass('activeCard');
+    $('.card1').removeClass('activeCard');
+    $('.card3').removeClass('activeCard');
     $('.cardText1').hide();
     $('.cardText3').hide();
-    $('.cardText2').show();
+    $('.cardText2').toggle();
   });
 
   $('.card3').click(function() {
-    $('.card3').css('background-color', '#fec810');
-    $('.card3').css('color', 'white');
-    $('.card1').css('background-color', 'white');
-    $('.card1').css('color', 'black');
-    $('.card2').css('background-color', 'white');
-    $('.card2').css('color', 'black');
+    $('.card3').toggleClass('activeCard');
+    $('.card2').removeClass('activeCard');
+    $('.card1').removeClass('activeCard');
     $('.cardText1').hide();
     $('.cardText2').hide();
-    $('.cardText3').show();
+    $('.cardText3').toggle();
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
