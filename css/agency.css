@@ -730,3 +730,7 @@ ul.social-buttons li a:hover {
   background-color: #fec810 !important;
   color: white !important;
 }
+
+.servicesText {
+  text-align: left;
+}
