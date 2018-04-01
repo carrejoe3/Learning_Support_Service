@@ -20,6 +20,15 @@
     $('.navbar-collapse').collapse('hide');
   });
 
+  // Scroll to card text when in mobile mode
+  function scrollToCard(scrollTo) {
+    if ($(window).width() < 768) {
+      $('html, body').animate({
+        scrollTop: $(scrollTo).offset().top - 80
+      }, 500);
+    }
+  }
+
   // Card functions
   $('.card1').click(function() {
     $('.card1').toggleClass('activeCard');
@@ -28,6 +37,7 @@
     $('.cardText3').hide();
     $('.cardText2').hide();
     $('.cardText1').toggle();
+    scrollToCard('.cardText1');
   });
 
   $('.card2').click(function() {
@@ -37,6 +47,7 @@
     $('.cardText1').hide();
     $('.cardText3').hide();
     $('.cardText2').toggle();
+    scrollToCard('.cardText2');
   });
 
   $('.card3').click(function() {
@@ -46,6 +57,7 @@
     $('.cardText1').hide();
     $('.cardText2').hide();
     $('.cardText3').toggle();
+    scrollToCard('.cardText3');
   });
 
   // Activate scrollspy to add active class to navbar items on scroll

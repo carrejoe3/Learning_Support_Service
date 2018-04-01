@@ -19,6 +19,10 @@ a:hover {
   color: #fed136 !important;
 }
 
+.text-white {
+  color: white;
+}
+
 h1,
 h2,
 h3,
@@ -56,6 +60,18 @@ section h3.section-subheading {
   }
 }
 
+@media (max-width: 330px) {
+  .navbar-brand {
+    font-size: 1.20rem;
+  }
+}
+
+@media screen and (max-width: 993px) and (min-width: 767px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+}
+
 .btn {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -69,6 +85,10 @@ section h3.section-subheading {
 .btn-primary {
   background-color: #fed136;
   border-color: #fed136;
+}
+
+#modalBtn {
+  margin-top: 10%;
 }
 
 .btn-primary:active,
